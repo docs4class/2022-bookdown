@@ -26,3 +26,9 @@ metadata-for-sharing
 tobin
 chapters-and-sub-chapters-1
 captioned-figures-and-tables-1
+r-basics
+basics-of-working-with-r-at-the-command-line-and-rstudio-goodies
+workspace-and-working-directory
+workspace-.rdata
+working-directory
+exercises
