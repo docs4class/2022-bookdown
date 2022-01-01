@@ -23,3 +23,6 @@ sharing-your-book
 publishing
 pages
 metadata-for-sharing
+tobin
+chapters-and-sub-chapters-1
+captioned-figures-and-tables-1
