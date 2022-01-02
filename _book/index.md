@@ -15,7 +15,7 @@ csl: chicago-fullnote-bibliography.csl
 
 # Introduction
 
-This is a book written which contains all the materials and lessons for BADM 371 Intro to Data Analytics. If you miss a day, want to review something we covered in class, or for any reason want to look for a worksheet, this is where you can go. 
+This is a book written which contains all the materials and lessons for **BADM 371 Intro to Data Analytics**. If you miss a day, want to review something we covered in class, or for any reason want to look for a worksheet, this is where you can go. 
 
 Each chapter contains a different topic we will cover during the semester. Some larger topics are split into two chapters to make accessing the materials a little more intuitive. 
 

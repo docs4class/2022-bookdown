@@ -6,13 +6,15 @@ Launch RStudio/R.
 
 You will first intall R and then. RStudio.
 
-- [Installing R](https://www.r-project.org/)
+- [Installing R](https://cran.case.edu/)
 
 - [Installing RStudio](https://www.rstudio.com/products/rstudio/download/)
 
-- [Customizing RStduio](https://support.rstudio.com/hc/en-us/articles/200549016-Customizing-the-RStudio-IDE)
+- [Customizing RStudio](https://support.rstudio.com/hc/en-us/articles/200549016-Customizing-the-RStudio-IDE)
 
 - [RStudio Quick keys](https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts-in-the-RStudio-IDE)
+
+## In Rstudio - where we will live 
 
 Notice the default panes:
 
@@ -27,12 +29,18 @@ Go into the Console, where we interact with the live R process.
 
 You can make an object by assigning a value or statement to a letter or string. We use `<-` to assign objects meaning. Create and inspect the following object:
 
+::: {.rmdimportant}
+**Your first analysis in R:**
+
 
 ```r
 x <- 3 * 4
 x
 #> [1] 12
 ```
+
+:::
+
 
 All R statements where you create objects -- "assignments" -- have this form:
 
@@ -135,7 +143,7 @@ Not all functions have (or require) arguments:
 
 ```r
 date()
-#> [1] "Sun Jan 02 13:12:08 2022"
+#> [1] "Sun Jan 02 13:26:04 2022"
 ```
 
 Now look at your workspace -- in the upper right pane. The workspace is where user-defined objects accumulate. You can also get a listing of these objects with commands:

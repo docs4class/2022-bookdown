@@ -6,11 +6,9 @@ introduction
 intro
 what-good-is-data-science
 about-r
-tobin
-chapters-and-sub-chapters
-captioned-figures-and-tables
 r-basics
 basics-of-working-with-r-at-the-command-line-and-rstudio-goodies
+in-rstudio---where-we-will-live
 workspace-and-working-directory
 workspace-.rdata
 working-directory
@@ -23,8 +21,8 @@ preview-book
 hello-bookdown
 a-section
 cross
-chapters-and-sub-chapters-1
-captioned-figures-and-tables-1
+chapters-and-sub-chapters
+captioned-figures-and-tables
 parts
 footnotes-and-citations
 footnotes
