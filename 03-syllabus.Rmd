@@ -1,4 +1,4 @@
-#Syllabus
+# Syllabus
 
 ## Grading
 - Quizzes and Assignments - 20%

@@ -3,9 +3,10 @@ tab:nice-tab
 eq:binom
 thm:tri
 introduction
-intro
+data-science-overview
 what-good-is-data-science
 about-r
+syllabus
 grading
 quizzes-process-for-making-them-up-dont-miss-class
 schedule
