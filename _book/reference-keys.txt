@@ -6,6 +6,9 @@ introduction
 intro
 what-good-is-data-science
 about-r
+grading
+quizzes-process-for-making-them-up-dont-miss-class
+schedule
 r-basics
 basics-of-working-with-r-at-the-command-line-and-rstudio-goodies
 in-rstudio---where-we-will-live
@@ -13,7 +16,6 @@ workspace-and-working-directory
 workspace-.rdata
 working-directory
 exercises
-schedule
 about
 usage
 render-book
