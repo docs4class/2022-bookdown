@@ -3,13 +3,13 @@ tab:nice-tab
 eq:binom
 thm:tri
 introduction
-data-science-overview
-what-good-is-data-science
-about-r
 syllabus
 grading
 quizzes-process-for-making-them-up-dont-miss-class
 schedule
+data-science-overview
+what-good-is-data-science
+about-r
 r-basics
 basics-of-working-with-r-at-the-command-line-and-rstudio-goodies
 in-rstudio---where-we-will-live
