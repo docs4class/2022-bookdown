@@ -3,8 +3,9 @@ tab:nice-tab
 eq:binom
 thm:tri
 introduction
-about-r
+intro
 what-good-is-data-science
+about-r
 tobin
 chapters-and-sub-chapters
 captioned-figures-and-tables
