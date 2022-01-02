@@ -24,13 +24,6 @@ elephant-in-the-room-r
 section
 about-r
 section-1
-r-basics
-basics-of-working-with-r-at-the-command-line-and-rstudio-goodies
-in-rstudio---where-we-will-live
-workspace-and-working-directory
-workspace-.rdata
-working-directory
-exercises
 r-vs.-excel
 both-are-useful
 differences-between-r-and-excel
@@ -40,6 +33,13 @@ visualization
 packages
 careers
 summary-using-r-and-excel
+r-basics
+basics-of-working-with-r-at-the-command-line-and-rstudio-goodies
+in-rstudio---where-we-will-live
+workspace-and-working-directory
+workspace-.rdata
+working-directory
+exercises
 objects-and-arithmetic
 introduction-1
 basic-functions
