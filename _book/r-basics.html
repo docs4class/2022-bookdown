@@ -85,7 +85,7 @@
 <li>Environment/History (tabbed in upper right)</li>
 <li>Files/Plots/Packages/Help (tabbed in lower right)</li>
 </ul>
-<p>FYI: you can change the default location of the panes, among many other things: [Customizing RStudio][rstudio-customizing].</p>
+<p>FYI: you can change the default location of the panes, among many other things: <a href="https://support.rstudio.com/hc/en-us/articles/200549016-Customizing-the-RStudio-IDE">Customizing RStudio</a>.</p>
 <p>Go into the Console, where we interact with the live R process.</p>
 <p>You can make an object by assigning a value or statement to a letter or string. We use <code>&lt;-</code> to assign objects meaning. Create and inspect the following object:</p>
 <div class="rmdimportant">
@@ -100,9 +100,15 @@
 <code class="sourceCode R"><span class="va">objectName</span> <span class="op">&lt;-</span> <span class="va">value</span></code></pre></div>
 <p>and in my head I hear, e.g., “x gets 12.”</p>
 <p>You will make lots of assignments and the operator <code>&lt;-</code> is a pain to type. Don’t be lazy and use <code>=</code>, although it would work, because it will just sow confusion later. Instead, utilize RStudio’s keyboard shortcut: Alt + - (the minus sign).</p>
+<div class="rmdimportant">
+<p><strong>I want to be your friend. As a friend, I implore you, learn this:</strong></p>
+<blockquote>
+<p>In RStudio insert the &lt;- assignment operator with Option + - (the minus sign)on a Mac, or Alt + - (the minus sign) on Windows.</p>
+</blockquote>
+</div>
 <p>Notice that RStudio automatically surrounds <code>&lt;-</code> with spaces, which demonstrates a useful code formatting practice. Code is miserable to read on a good day. Give your eyes a break and use spaces.</p>
-<p>RStudio offers many handy [keyboard shortcuts][rstudio-key-shortcuts]. Also, Alt+Shift+K brings up a keyboard shortcut reference card.</p>
-<p>Object names cannot start with a digit and cannot contain certain other characters such as a comma or a space. You will be wise to adopt a [convention for demarcating words][wiki-snake-case] in names, but note that best practice is to choose ONE convention and stay true to it throughout your code.</p>
+<p>RStudio offers many handy <a href="https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts-in-the-RStudio-IDE">RStudio Quick keys</a>. Also, Alt+Shift+K brings up a keyboard shortcut reference card.</p>
+<p>Object names cannot start with a digit and cannot contain certain other characters such as a comma or a space. You will be wise to adopt a <a href="https://en.wikipedia.org/wiki/Snake_case">convention for demarcating words</a> in names, but note that best practice is to choose ONE convention and stay true to it throughout your code.</p>
 <pre><code>i_use_snake_case
 other.people.use.periods
 evenOthersUseCamelCase</code></pre>
@@ -148,7 +154,7 @@ argument or maybe the first two. After that, I always use <code>name = value</co
 <p>Not all functions have (or require) arguments:</p>
 <div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/date.html">date</a></span><span class="op">(</span><span class="op">)</span>
-<span class="co">#&gt; [1] "Sun Jan 02 13:26:04 2022"</span></code></pre></div>
+<span class="co">#&gt; [1] "Sun Jan 02 13:37:51 2022"</span></code></pre></div>
 <p>Now look at your workspace – in the upper right pane. The workspace is where user-defined objects accumulate. You can also get a listing of these objects with commands:</p>
 <div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/ls.html">objects</a></span><span class="op">(</span><span class="op">)</span>

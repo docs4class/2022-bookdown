@@ -23,7 +23,7 @@ Notice the default panes:
 * Files/Plots/Packages/Help (tabbed in lower right)
 
 
-FYI: you can change the default location of the panes, among many other things: [Customizing RStudio][rstudio-customizing].
+FYI: you can change the default location of the panes, among many other things: [Customizing RStudio](https://support.rstudio.com/hc/en-us/articles/200549016-Customizing-the-RStudio-IDE).
 
 Go into the Console, where we interact with the live R process.
 
@@ -49,11 +49,21 @@ and in my head I hear, e.g., "x gets 12".
 
 You will make lots of assignments and the operator `<-` is a pain to type. Don't be lazy and use `=`, although it would work, because it will just sow confusion later. Instead, utilize RStudio's keyboard shortcut: Alt + - (the minus sign).
 
+::: {.rmdimportant}
+**I want to be your friend.  As a friend, I implore you, learn this:**
+
+
+> In RStudio insert the <- assignment operator with Option + - (the minus sign)on a Mac, or Alt + - (the minus sign) on Windows.
+
+
+:::
+
+
 Notice that RStudio automatically surrounds `<-` with spaces, which demonstrates a useful code formatting practice. Code is miserable to read on a good day. Give your eyes a break and use spaces.
 
-RStudio offers many handy [keyboard shortcuts][rstudio-key-shortcuts]. Also, Alt+Shift+K brings up a keyboard shortcut reference card.
+RStudio offers many handy [RStudio Quick keys](https://support.rstudio.com/hc/en-us/articles/200711853-Keyboard-Shortcuts-in-the-RStudio-IDE). Also, Alt+Shift+K brings up a keyboard shortcut reference card.
 
-Object names cannot start with a digit and cannot contain certain other characters such as a comma or a space. You will be wise to adopt a [convention for demarcating words][wiki-snake-case] in names, but note that best practice is to choose ONE convention and stay true to it throughout your code.
+Object names cannot start with a digit and cannot contain certain other characters such as a comma or a space. You will be wise to adopt a [convention for demarcating words](https://en.wikipedia.org/wiki/Snake_case) in names, but note that best practice is to choose ONE convention and stay true to it throughout your code.
 
 ```
 i_use_snake_case
