@@ -8,7 +8,7 @@ course-objectives-and-learning-outcomes
 text-and-resources
 performance-evaluation-grading
 exams
-quizzes-process-for-making-them-up-dont-miss-class
+quizzes-dont-miss-class
 final-average
 class-participation
 phones
@@ -20,7 +20,10 @@ continuing-advocate-version
 schedule
 data-science-overview
 what-good-is-data-science
+elephant-in-the-room-r
+section
 about-r
+section-1
 r-basics
 basics-of-working-with-r-at-the-command-line-and-rstudio-goodies
 in-rstudio---where-we-will-live

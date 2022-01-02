@@ -10,17 +10,17 @@ This course is designed to introduce to data science.  Students will apply stati
 
 At the end of this course students should be able to:
 
-- Demonstrate mastery of the statistical software in the R and Rstudio IDE.
+- Demonstrate mastery of the statistical software in R and the Rstudio IDE.
 - Data wrangle (the process of cleaning and unifying messy and complex data sets for easy access and analysis)
 - Demonstrate mastery of single and multiple regression.
-- Demonstrate mastery of predicting and forecasting events.
+- Demonstrate mastery of these dplyr functions: filter, select, mutate, group_by, summaize, and tally.
 - Demonstrate mastery of how business analytics is related to other business functions and is important to the success of the business entity.
 
 This course will be focused on both understanding and applying key business analytical concepts. Although the text serves as a useful foundation for the concepts covered in the class, simple memorization of the material in the text will not be sufficient. Class participation, discussion, and application are critical.
 
 ## Text and Resources
 
-- Course website (primary)
+- The course website (primary reource)
 - An Introduction to Statistical Learning with Applications in R; by Gareth James, Daniela Witten, Trevor Hastie and Robert Tibshirani
 - R: A self-learn tutorial.
 - Other free, publicly available datasets and publications.
@@ -38,28 +38,31 @@ This course will be focused on both understanding and applying key business anal
 Exams will cover assigned chapters in the textbook, other assigned readings, lectures, class exercises, class discussions, videos, and guest speakers. I will typically allocate time prior to each exam to clearly identify the body of knowledge each test will cover and to answer questions about the format and objectives of the exam.
 
 
-### Quizzes -- Process for making them up (**DON"T MISS CLASS**)
+### Quizzes -- **DON"T MISS CLASS**
+- The average of all quizzes and assignments will comprise the Quizzes and Assignments - 20% portion of your final grade
+- Quizzes are designed to prepare you for your exams and to ensure you stay up wiht the course material
+- Missed quizzes cannot be made up later.  Be present.  
 
 Quizzes rule.  **LISTEN.**
 
 ### Final Average
 
-Final Average	Grade
-90-100	A
-88-89	B+
-82-87	B+
-80-81	B-
-78-79	C+
-72-77	C+
-70-71	C-
-60-69	D
-59 and below	F
+- Final Average	Grade
+  - 90-100	A
+  - 88-89	B+
+  - 82-87	B+
+  - 80-81	B-
+  - 78-79	C+
+  - 72-77	C+
+  - 70-71	C-
+  - 60-69	D
+  - 59 and below	F
 
 ## Class Participation:
 
 I will frequently give readings or assignments for you to complete prior to the next class meeting. I expect you to fully engage the material: answer questions, pose questions, provide insightful observations. Keep in mind that quality is an important component in “participation.” Periodic cold calls will take place. I will also put students in the “hot seat” on occasion. In these class sessions, I may select a random group of students to lead us in the discussion and debate. Because the selection of participants will not be announced until class begins, everyone will be expected to prepare for the discussion. Reading the assigned chapters and articles are the best way to prepare for the discussion. If you have concerns about being called on in class, please see me to discuss. The purpose of the “hot seat” is not to stress or embarrass students, but to encourage students to actively engage the material.
 
-## Phones:
+## Phones
 
 **Phones are not allowed to be used in class without the instructor’s prior consent.** If you have a need of a phone during class please let me know before class. Unauthorized use of electronic devices may result in the lowering of the grade or dismissal from the class.  **I mean this.**
 
