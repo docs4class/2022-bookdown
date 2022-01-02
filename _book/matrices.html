@@ -4,16 +4,16 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Chapter 16 Matrices | BADM 371 Intro to Data Analytics</title>
+<title>Chapter 9 Matrices | BADM 371 Intro to Data Analytics</title>
 <meta name="author" content="BADM 371">
-<meta name="description" content="16.1 CBind and RBind Matrices can be created in R in a variety of ways. Perhaps the simplest is to create the columns (just a couple of objects)and then glue them together with the command cbind....">
+<meta name="description" content="9.1 CBind and RBind Matrices can be created in R in a variety of ways. Perhaps the simplest is to create the columns (just a couple of objects)and then glue them together with the command cbind....">
 <meta name="generator" content="bookdown 0.24 with bs4_book()">
-<meta property="og:title" content="Chapter 16 Matrices | BADM 371 Intro to Data Analytics">
+<meta property="og:title" content="Chapter 9 Matrices | BADM 371 Intro to Data Analytics">
 <meta property="og:type" content="book">
-<meta property="og:description" content="16.1 CBind and RBind Matrices can be created in R in a variety of ways. Perhaps the simplest is to create the columns (just a couple of objects)and then glue them together with the command cbind....">
+<meta property="og:description" content="9.1 CBind and RBind Matrices can be created in R in a variety of ways. Perhaps the simplest is to create the columns (just a couple of objects)and then glue them together with the command cbind....">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chapter 16 Matrices | BADM 371 Intro to Data Analytics">
-<meta name="twitter:description" content="16.1 CBind and RBind Matrices can be created in R in a variety of ways. Perhaps the simplest is to create the columns (just a couple of objects)and then glue them together with the command cbind....">
+<meta name="twitter:title" content="Chapter 9 Matrices | BADM 371 Intro to Data Analytics">
+<meta name="twitter:description" content="9.1 CBind and RBind Matrices can be created in R in a variety of ways. Perhaps the simplest is to create the columns (just a couple of objects)and then glue them together with the command cbind....">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -44,27 +44,27 @@
 <li><a class="" href="schedule.html"><span class="header-section-number">3</span> Schedule</a></li>
 <li><a class="" href="data-science-overview.html"><span class="header-section-number">4</span> Data Science Overview</a></li>
 <li><a class="" href="r-basics.html"><span class="header-section-number">5</span> R basics and workflows</a></li>
-<li><a class="" href="about.html"><span class="header-section-number">6</span> About</a></li>
-<li><a class="" href="hello-bookdown.html"><span class="header-section-number">7</span> Hello bookdown</a></li>
-<li><a class="" href="cross.html"><span class="header-section-number">8</span> Cross-references</a></li>
-<li><a class="" href="parts.html"><span class="header-section-number">9</span> Parts</a></li>
-<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">10</span> Footnotes and citations</a></li>
-<li><a class="" href="blocks.html"><span class="header-section-number">11</span> Blocks</a></li>
-<li><a class="" href="sharing-your-book.html"><span class="header-section-number">12</span> Sharing your book</a></li>
+<li><a class="" href="r-vs.-excel.html"><span class="header-section-number">6</span> R vs. Excel</a></li>
+<li><a class="" href="objects-and-arithmetic.html"><span class="header-section-number">7</span> Objects and Arithmetic</a></li>
+<li><a class="" href="summaries-and-subscripting.html"><span class="header-section-number">8</span> Summaries and Subscripting</a></li>
+<li><a class="active" href="matrices.html"><span class="header-section-number">9</span> Matrices</a></li>
+<li><a class="" href="data-analytics-i-quizzes.html"><span class="header-section-number">10</span> Data Analytics I Quizzes</a></li>
+<li><a class="" href="playing-with-data-using-mtcars.html"><span class="header-section-number">11</span> Playing With Data (Using mtcars)</a></li>
+<li><a class="" href="practice-final-exam.html"><span class="header-section-number">12</span> Practice Final Exam</a></li>
+<li><a class="" href="dplyr.html"><span class="header-section-number">13</span> DPLYR</a></li>
+<li><a class="" href="more-dplyr.html"><span class="header-section-number">14</span> More DPLYR</a></li>
+<li><a class="" href="gdh-ice-cream.html"><span class="header-section-number">15</span> GDH Ice Cream</a></li>
+<li><a class="" href="linear-regression.html"><span class="header-section-number">16</span> Linear Regression</a></li>
+<li><a class="" href="logistic-regression.html"><span class="header-section-number">17</span> Logistic Regression</a></li>
+<li><a class="" href="dealing-with-errors.html"><span class="header-section-number">18</span> Dealing with Errors</a></li>
+<li><a class="" href="about.html"><span class="header-section-number">19</span> About</a></li>
+<li><a class="" href="hello-bookdown.html"><span class="header-section-number">20</span> Hello bookdown</a></li>
+<li><a class="" href="cross.html"><span class="header-section-number">21</span> Cross-references</a></li>
+<li><a class="" href="parts.html"><span class="header-section-number">22</span> Parts</a></li>
+<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">23</span> Footnotes and citations</a></li>
+<li><a class="" href="blocks.html"><span class="header-section-number">24</span> Blocks</a></li>
+<li><a class="" href="sharing-your-book.html"><span class="header-section-number">25</span> Sharing your book</a></li>
 <li><a class="" href="references.html">References</a></li>
-<li><a class="" href="r-vs.-excel.html"><span class="header-section-number">13</span> R vs. Excel</a></li>
-<li><a class="" href="objects-and-arithmetic.html"><span class="header-section-number">14</span> Objects and Arithmetic</a></li>
-<li><a class="" href="summaries-and-subscripting.html"><span class="header-section-number">15</span> Summaries and Subscripting</a></li>
-<li><a class="active" href="matrices.html"><span class="header-section-number">16</span> Matrices</a></li>
-<li><a class="" href="data-analytics-i-quizzes.html"><span class="header-section-number">17</span> Data Analytics I Quizzes</a></li>
-<li><a class="" href="playing-with-data-using-mtcars.html"><span class="header-section-number">18</span> Playing With Data (Using mtcars)</a></li>
-<li><a class="" href="practice-final-exam.html"><span class="header-section-number">19</span> Practice Final Exam</a></li>
-<li><a class="" href="dplyr.html"><span class="header-section-number">20</span> DPLYR</a></li>
-<li><a class="" href="more-dplyr.html"><span class="header-section-number">21</span> More DPLYR</a></li>
-<li><a class="" href="gdh-ice-cream.html"><span class="header-section-number">22</span> GDH Ice Cream</a></li>
-<li><a class="" href="linear-regression.html"><span class="header-section-number">23</span> Linear Regression</a></li>
-<li><a class="" href="logistic-regression.html"><span class="header-section-number">24</span> Logistic Regression</a></li>
-<li><a class="" href="dealing-with-errors.html"><span class="header-section-number">25</span> Dealing with Errors</a></li>
 </ul>
 
         <div class="book-extra">
@@ -72,16 +72,16 @@
         </div>
       </nav>
 </div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="matrices" class="section level1" number="16">
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="matrices" class="section level1" number="9">
 <h1>
-<span class="header-section-number">16</span> Matrices<a class="anchor" aria-label="anchor" href="#matrices"><i class="fas fa-link"></i></a>
+<span class="header-section-number">9</span> Matrices<a class="anchor" aria-label="anchor" href="#matrices"><i class="fas fa-link"></i></a>
 </h1>
-<div id="cbind-and-rbind" class="section level2" number="16.1">
+<div id="cbind-and-rbind" class="section level2" number="9.1">
 <h2>
-<span class="header-section-number">16.1</span> CBind and RBind<a class="anchor" aria-label="anchor" href="#cbind-and-rbind"><i class="fas fa-link"></i></a>
+<span class="header-section-number">9.1</span> CBind and RBind<a class="anchor" aria-label="anchor" href="#cbind-and-rbind"><i class="fas fa-link"></i></a>
 </h2>
 <p>Matrices can be created in R in a variety of ways. Perhaps the simplest is to create the columns (just a couple of objects)and then glue them together with the command cbind. For example,</p>
-<div class="sourceCode" id="cb53"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb47"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">x</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">5</span>,<span class="fl">7</span>,<span class="fl">9</span><span class="op">)</span>
 <span class="va">y</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">6</span>,<span class="fl">3</span>,<span class="fl">4</span><span class="op">)</span>
 <span class="va">z</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/cbind.html">cbind</a></span><span class="op">(</span><span class="va">x</span>,<span class="va">y</span><span class="op">)</span>
@@ -91,12 +91,12 @@
 <span class="co">#&gt; [2,] 7 3</span>
 <span class="co">#&gt; [3,] 9 4</span></code></pre></div>
 <p>The dimension of a matrix can be checked with the dim command:</p>
-<div class="sourceCode" id="cb54"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb48"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/dim.html">dim</a></span><span class="op">(</span><span class="va">z</span><span class="op">)</span>
 <span class="co">#&gt; [1] 3 2</span></code></pre></div>
 <p>[1] 3 2 i.e., three rows and two columns. There is a similar command, rbind, for building matrices by gluing rows together.</p>
 <p>The functions cbind and rbind can also be applied to matrices themselves (provided the dimensions match) to form larger matrices. For example,</p>
-<div class="sourceCode" id="cb55"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb49"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/cbind.html">rbind</a></span><span class="op">(</span><span class="va">z</span>,<span class="va">z</span><span class="op">)</span>
 <span class="co">#&gt;      x y</span>
 <span class="co">#&gt; [1,] 5 6</span>
@@ -105,9 +105,9 @@
 <span class="co">#&gt; [4,] 5 6</span>
 <span class="co">#&gt; [5,] 7 3</span>
 <span class="co">#&gt; [6,] 9 4</span></code></pre></div>
-<div id="review-questions" class="section level3" number="16.1.1">
+<div id="review-questions" class="section level3" number="9.1.1">
 <h3>
-<span class="header-section-number">16.1.1</span> Review Questions<a class="anchor" aria-label="anchor" href="#review-questions"><i class="fas fa-link"></i></a>
+<span class="header-section-number">9.1.1</span> Review Questions<a class="anchor" aria-label="anchor" href="#review-questions"><i class="fas fa-link"></i></a>
 </h3>
 <ol style="list-style-type: decimal">
 <li><p>Create a matrix made up of two columns showing the GPAs and number of hours studied by seven students.</p></li>
@@ -126,15 +126,15 @@
 </ol>
 </div>
 </div>
-<div id="matrix-function" class="section level2" number="16.2">
+<div id="matrix-function" class="section level2" number="9.2">
 <h2>
-<span class="header-section-number">16.2</span> Matrix Function<a class="anchor" aria-label="anchor" href="#matrix-function"><i class="fas fa-link"></i></a>
+<span class="header-section-number">9.2</span> Matrix Function<a class="anchor" aria-label="anchor" href="#matrix-function"><i class="fas fa-link"></i></a>
 </h2>
 <p>Matrices can also be built by explicit construction via the function matrix. For example,</p>
-<div class="sourceCode" id="cb57"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb51"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">z</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/matrix.html">matrix</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">5</span>,<span class="fl">7</span>,<span class="fl">9</span>,<span class="fl">6</span>,<span class="fl">3</span>,<span class="fl">4</span><span class="op">)</span>,nrow<span class="op">=</span><span class="fl">3</span><span class="op">)</span></code></pre></div>
 <p>results in a matrix z identical to z above. Notice that the dimension of the matrix is determined by the size of the vector and the requirement that the number of rows is 3, as specified by the argument nrow=3. As an alternative we could have specified the number of columns with the argument ncol=2 (obviously, it is unnecessary to give both). Notice that the matrix is ‘flled up’ column-wise. If instead you wish to fill up row-wise, add the option byrow=T. For example,</p>
-<div class="sourceCode" id="cb58"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb52"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">z</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/matrix.html">matrix</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">5</span>,<span class="fl">7</span>,<span class="fl">9</span>,<span class="fl">6</span>,<span class="fl">3</span>,<span class="fl">4</span><span class="op">)</span>,nr<span class="op">=</span><span class="fl">3</span>,byrow<span class="op">=</span><span class="cn">T</span><span class="op">)</span>
 <span class="va">z</span>
 <span class="co">#&gt;      [,1] [,2]</span>
@@ -143,7 +143,7 @@
 <span class="co">#&gt; [3,]    3    4</span></code></pre></div>
 <p>Notice that the argument nrow has been abbreviated to nr. Such abbreviations are always possible for function arguments provided it induces no ambiguity - if in doubt always use the full argument name.</p>
 <p>As usual, R will try to interpret operations on matrices in a natural way. For example, with z as above, and</p>
-<div class="sourceCode" id="cb59"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb53"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">y</span><span class="op">&lt;-</span><span class="fu"><a href="https://rdrr.io/r/base/matrix.html">matrix</a></span><span class="op">(</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">1</span>,<span class="fl">3</span>,<span class="fl">0</span>,<span class="fl">9</span>,<span class="fl">5</span>,<span class="op">-</span><span class="fl">1</span><span class="op">)</span>,nrow<span class="op">=</span><span class="fl">3</span>,byrow<span class="op">=</span><span class="cn">T</span><span class="op">)</span>
 <span class="va">y</span>
 <span class="co">#&gt;      [,1] [,2]</span>
@@ -151,21 +151,21 @@
 <span class="co">#&gt; [2,]    0    9</span>
 <span class="co">#&gt; [3,]    5   -1</span></code></pre></div>
 <p>we obtain</p>
-<div class="sourceCode" id="cb60"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb54"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">y</span><span class="op">+</span><span class="va">z</span>
 <span class="co">#&gt;      [,1] [,2]</span>
 <span class="co">#&gt; [1,]    6   10</span>
 <span class="co">#&gt; [2,]    9   15</span>
 <span class="co">#&gt; [3,]    8    3</span></code></pre></div>
 <p>and</p>
-<div class="sourceCode" id="cb61"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb55"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">y</span><span class="op">*</span><span class="va">z</span>
 <span class="co">#&gt;      [,1] [,2]</span>
 <span class="co">#&gt; [1,]    5   21</span>
 <span class="co">#&gt; [2,]    0   54</span>
 <span class="co">#&gt; [3,]   15   -4</span></code></pre></div>
 <p>Other useful functions on matrices are to transpose a matrix:</p>
-<div class="sourceCode" id="cb62"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb56"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">z</span>
 <span class="co">#&gt;      [,1] [,2]</span>
 <span class="co">#&gt; [1,]    5    7</span>
@@ -176,19 +176,19 @@
 <span class="co">#&gt; [1,]    5    9    3</span>
 <span class="co">#&gt; [2,]    7    6    4</span></code></pre></div>
 <p>As with vectors it is useful to be able to extract sub-components of matrices. In this case, wemay wish to pick out individual elements, rows or columns. As before, the [ ] notation is used to subscript. The following examples should make things clear:</p>
-<div class="sourceCode" id="cb63"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb57"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">z</span><span class="op">[</span><span class="fl">1</span>,<span class="fl">1</span><span class="op">]</span>
 <span class="co">#&gt; [1] 5</span></code></pre></div>
-<div class="sourceCode" id="cb64"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb58"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">z</span><span class="op">[</span><span class="fu"><a href="https://rdrr.io/r/base/c.html">c</a></span><span class="op">(</span><span class="fl">2</span>,<span class="fl">3</span><span class="op">)</span>,<span class="fl">2</span><span class="op">]</span>
 <span class="co">#&gt; [1] 6 4</span></code></pre></div>
-<div class="sourceCode" id="cb65"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb59"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">z</span><span class="op">[</span>,<span class="fl">2</span><span class="op">]</span>
 <span class="co">#&gt; [1] 7 6 4</span></code></pre></div>
 <blockquote>
 
 </blockquote>
-<div class="sourceCode" id="cb66"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb60"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">z</span><span class="op">[</span><span class="fl">1</span><span class="op">:</span><span class="fl">2</span>,<span class="op">]</span>
 <span class="co">#&gt;      [,1] [,2]</span>
 <span class="co">#&gt; [1,]    5    7</span>
@@ -196,9 +196,9 @@
 <p>So, in particular, it is necessary to specify which rows and columns are required, whilst omitting
 the integer for either dimension implies that every element in that dimension is selected.</p>
 </div>
-<div id="exercises-2" class="section level2" number="16.3">
+<div id="exercises-2" class="section level2" number="9.3">
 <h2>
-<span class="header-section-number">16.3</span> Exercises<a class="anchor" aria-label="anchor" href="#exercises-2"><i class="fas fa-link"></i></a>
+<span class="header-section-number">9.3</span> Exercises<a class="anchor" aria-label="anchor" href="#exercises-2"><i class="fas fa-link"></i></a>
 </h2>
 <ol style="list-style-type: decimal">
 <li>Create this matrix in R</li>
@@ -210,7 +210,7 @@ the integer for either dimension implies that every element in that dimension is
 <ol start="2" style="list-style-type: decimal">
 <li>Create in R these matrices:</li>
 </ol>
-<div class="sourceCode" id="cb68"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb62"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">x</span>
 <span class="co">#&gt;      [,1] [,2]</span>
 <span class="co">#&gt; [1,]    1    7</span>
@@ -254,17 +254,17 @@ your answers in R.</li>
 </div>
 </div>
   <div class="chapter-nav">
-<div class="prev"><a href="summaries-and-subscripting.html"><span class="header-section-number">15</span> Summaries and Subscripting</a></div>
-<div class="next"><a href="data-analytics-i-quizzes.html"><span class="header-section-number">17</span> Data Analytics I Quizzes</a></div>
+<div class="prev"><a href="summaries-and-subscripting.html"><span class="header-section-number">8</span> Summaries and Subscripting</a></div>
+<div class="next"><a href="data-analytics-i-quizzes.html"><span class="header-section-number">10</span> Data Analytics I Quizzes</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
-<li><a class="nav-link" href="#matrices"><span class="header-section-number">16</span> Matrices</a></li>
+<li><a class="nav-link" href="#matrices"><span class="header-section-number">9</span> Matrices</a></li>
 <li>
-<a class="nav-link" href="#cbind-and-rbind"><span class="header-section-number">16.1</span> CBind and RBind</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#review-questions"><span class="header-section-number">16.1.1</span> Review Questions</a></li></ul>
+<a class="nav-link" href="#cbind-and-rbind"><span class="header-section-number">9.1</span> CBind and RBind</a><ul class="nav navbar-nav"><li><a class="nav-link" href="#review-questions"><span class="header-section-number">9.1.1</span> Review Questions</a></li></ul>
 </li>
-<li><a class="nav-link" href="#matrix-function"><span class="header-section-number">16.2</span> Matrix Function</a></li>
-<li><a class="nav-link" href="#exercises-2"><span class="header-section-number">16.3</span> Exercises</a></li>
+<li><a class="nav-link" href="#matrix-function"><span class="header-section-number">9.2</span> Matrix Function</a></li>
+<li><a class="nav-link" href="#exercises-2"><span class="header-section-number">9.3</span> Exercises</a></li>
 </ul>
 
       <div class="book-extra">
