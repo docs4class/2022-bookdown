@@ -36,6 +36,7 @@ summary-using-r-and-excel
 r-basics
 basics-of-working-with-r-at-the-command-line-and-rstudio-goodies
 in-rstudio---where-we-will-live
+section-2
 workspace-and-working-directory
 workspace-.rdata
 working-directory
@@ -99,6 +100,11 @@ p-values
 multiple-r-squared
 applying-the-model-to-make-predictions
 review-questions-1
+linear-regression-practice
+your-homework-is-to-watch-these-videos-which-are-posted-under-the-linear-regression-header-on-brightspace-and-then-do-the-following-homework
+videos-to-watch
+problems
+multivariate-regression
 logistic-regression
 introduction-5
 training-data-and-test-data

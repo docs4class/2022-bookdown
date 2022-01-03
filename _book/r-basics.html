@@ -56,15 +56,16 @@
 <li><a class="" href="more-dplyr.html"><span class="header-section-number">15</span> More DPLYR</a></li>
 <li><a class="" href="gdh-ice-cream.html"><span class="header-section-number">16</span> GDH Ice Cream</a></li>
 <li><a class="" href="linear-regression.html"><span class="header-section-number">17</span> Linear Regression</a></li>
-<li><a class="" href="logistic-regression.html"><span class="header-section-number">18</span> Logistic Regression</a></li>
-<li><a class="" href="dealing-with-errors.html"><span class="header-section-number">19</span> Dealing with Errors</a></li>
-<li><a class="" href="about.html"><span class="header-section-number">20</span> About</a></li>
-<li><a class="" href="hello-bookdown.html"><span class="header-section-number">21</span> Hello bookdown</a></li>
-<li><a class="" href="cross.html"><span class="header-section-number">22</span> Cross-references</a></li>
-<li><a class="" href="parts.html"><span class="header-section-number">23</span> Parts</a></li>
-<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">24</span> Footnotes and citations</a></li>
-<li><a class="" href="blocks.html"><span class="header-section-number">25</span> Blocks</a></li>
-<li><a class="" href="sharing-your-book.html"><span class="header-section-number">26</span> Sharing your book</a></li>
+<li><a class="" href="linear-regression-practice.html"><span class="header-section-number">18</span> Linear Regression Practice</a></li>
+<li><a class="" href="logistic-regression.html"><span class="header-section-number">19</span> Logistic Regression</a></li>
+<li><a class="" href="dealing-with-errors.html"><span class="header-section-number">20</span> Dealing with Errors</a></li>
+<li><a class="" href="about.html"><span class="header-section-number">21</span> About</a></li>
+<li><a class="" href="hello-bookdown.html"><span class="header-section-number">22</span> Hello bookdown</a></li>
+<li><a class="" href="cross.html"><span class="header-section-number">23</span> Cross-references</a></li>
+<li><a class="" href="parts.html"><span class="header-section-number">24</span> Parts</a></li>
+<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">25</span> Footnotes and citations</a></li>
+<li><a class="" href="blocks.html"><span class="header-section-number">26</span> Blocks</a></li>
+<li><a class="" href="sharing-your-book.html"><span class="header-section-number">27</span> Sharing your book</a></li>
 <li><a class="" href="references.html">References</a></li>
 </ul>
 
@@ -100,6 +101,11 @@
 <li>Environment/History (tabbed in upper right)</li>
 <li>Files/Plots/Packages/Help (tabbed in lower right)</li>
 </ul>
+</div>
+<div id="section-2" class="section level2" number="7.3">
+<h2>
+<span class="header-section-number">7.3</span> <a class="anchor" aria-label="anchor" href="#section-2"><i class="fas fa-link"></i></a>
+</h2>
 <p><a href="http://www.sthda.com/sthda/RDoc/images/rstudio.png">Rstudio Console</a></p>
 <p>FYI: you can change the default location of the panes, among many other things: <a href="https://support.rstudio.com/hc/en-us/articles/200549016-Customizing-the-RStudio-IDE">Customizing RStudio</a>.</p>
 <p>Go into the Console, where we interact with the live R process.</p>
@@ -144,7 +150,7 @@ evenOthersUseCamelCase</code></pre>
 <span class="co">#&gt; Error in eval(expr, envir, enclos): object 'Turner_rocks' not found</span>
 <span class="va">turner_rocks</span>
 <span class="co">#&gt; [1] 8</span></code></pre></div>
-<p>Implicit contract with the computer / scripting language: Computer will do tedious computation for you. In return, you will be completely precise in your instructions. Typos matter. Case matters. Get better at typing.</p>
+<p><strong>Implicit contract with the computer / scripting language: Computer will do tedious computation for you. In return, you will be completely precise in your instructions. Typos matter. Case matters. Get better at typing.</strong></p>
 <p>R has a mind-blowing collection of built-in functions that are accessed like so:</p>
 <div class="sourceCode" id="cb7"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb7-1"><a href="r-basics.html#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">functionName</span>(<span class="at">arg1 =</span> val1, <span class="at">arg2 =</span> val2, and so on)</span></code></pre></div>
 <p>Let’s try using <code><a href="https://rdrr.io/r/base/seq.html">seq()</a></code> which makes regular sequences of numbers and, while we’re at it, demo more helpful features of RStudio.</p>
@@ -170,7 +176,7 @@ argument or maybe the first two. After that, I always use <code>name = value</co
 <p>Not all functions have (or require) arguments:</p>
 <div class="sourceCode" id="cb12"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/date.html">date</a></span><span class="op">(</span><span class="op">)</span>
-<span class="co">#&gt; [1] "Sun Jan 02 15:37:12 2022"</span></code></pre></div>
+<span class="co">#&gt; [1] "Sun Jan 02 21:13:46 2022"</span></code></pre></div>
 <p>Now look at your workspace – in the upper right pane. The workspace is where user-defined objects accumulate. You can also get a listing of these objects with commands:</p>
 <div class="sourceCode" id="cb13"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/ls.html">objects</a></span><span class="op">(</span><span class="op">)</span>
@@ -193,9 +199,9 @@ argument or maybe the first two. After that, I always use <code>name = value</co
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/base/rm.html">rm</a></span><span class="op">(</span>list <span class="op">=</span> <span class="fu"><a href="https://rdrr.io/r/base/ls.html">ls</a></span><span class="op">(</span><span class="op">)</span><span class="op">)</span></code></pre></div>
 <p>or click the broom in RStudio’s Environment pane.</p>
 </div>
-<div id="workspace-and-working-directory" class="section level2" number="7.3">
+<div id="workspace-and-working-directory" class="section level2" number="7.4">
 <h2>
-<span class="header-section-number">7.3</span> Workspace and working directory<a class="anchor" aria-label="anchor" href="#workspace-and-working-directory"><i class="fas fa-link"></i></a>
+<span class="header-section-number">7.4</span> Workspace and working directory<a class="anchor" aria-label="anchor" href="#workspace-and-working-directory"><i class="fas fa-link"></i></a>
 </h2>
 <p>One day you will need to quit R, go do something else and return to your analysis later (this is a very happy day).</p>
 <p>One day you will have multiple analyses going that use R and you want to keep them separate (a not so happy day).</p>
@@ -205,9 +211,9 @@ argument or maybe the first two. After that, I always use <code>name = value</co
 <li>What about your analysis is “real,” i.e. will you save it as your lasting record of what happened?</li>
 <li>Where does your analysis “live?”</li>
 </ul>
-<div id="workspace-.rdata" class="section level3" number="7.3.1">
+<div id="workspace-.rdata" class="section level3" number="7.4.1">
 <h3>
-<span class="header-section-number">7.3.1</span> Workspace, <code>.RData</code><a class="anchor" aria-label="anchor" href="#workspace-.rdata"><i class="fas fa-link"></i></a>
+<span class="header-section-number">7.4.1</span> Workspace, <code>.RData</code><a class="anchor" aria-label="anchor" href="#workspace-.rdata"><i class="fas fa-link"></i></a>
 </h3>
 <p>As a beginning R user, it’s OK to consider your workspace “real.” <em>Very soon</em>, I urge you to evolve to the next level, where you consider your saved R scripts as “real.” (In either case, of course the input data is very much real and requires preservation!) With the input data and the R code you used, you can reproduce
 <em>everything</em>. You can make your analysis fancier. You can get to the bottom of puzzling results and discover and fix bugs in your code. You can reuse the code to conduct similar analyses in new projects. You can remake a figure with different aspect ratio or save is as TIFF instead of PDF. You are ready to take questions. You are ready for the future.</p>
@@ -225,9 +231,9 @@ argument or maybe the first two. After that, I always use <code>name = value</co
 <pre><code>[Workspace loaded from ~/.RData]</code></pre>
 <p>indicating that your workspace has been restored. Look in the Workspace pane and you’ll see the same objects as before. In the History tab of the same pane, you should also see your command history. You’re back in business. This way of starting and stopping analytical work will not serve you well for long but it’s a start.</p>
 </div>
-<div id="working-directory" class="section level3" number="7.3.2">
+<div id="working-directory" class="section level3" number="7.4.2">
 <h3>
-<span class="header-section-number">7.3.2</span> Working directory<a class="anchor" aria-label="anchor" href="#working-directory"><i class="fas fa-link"></i></a>
+<span class="header-section-number">7.4.2</span> Working directory<a class="anchor" aria-label="anchor" href="#working-directory"><i class="fas fa-link"></i></a>
 </h3>
 <p>Any process running on your computer has a notion of its “working directory.” In R, this is where R will look, by default, for files you ask it to load. It also where, by default, any files you write to disk will go. Chances are your current working directory is the directory we inspected above, i.e. the one where RStudio wanted to save the workspace.</p>
 <p>You can explicitly check your working directory with:</p>
@@ -242,9 +248,9 @@ argument or maybe the first two. After that, I always use <code>name = value</co
 <p>But there’s a better way. A way that also puts you on the path to managing your R work like an expert.</p>
 </div>
 </div>
-<div id="exercises" class="section level2" number="7.4">
+<div id="exercises" class="section level2" number="7.5">
 <h2>
-<span class="header-section-number">7.4</span> Exercises<a class="anchor" aria-label="anchor" href="#exercises"><i class="fas fa-link"></i></a>
+<span class="header-section-number">7.5</span> Exercises<a class="anchor" aria-label="anchor" href="#exercises"><i class="fas fa-link"></i></a>
 </h2>
 <ol style="list-style-type: decimal">
 <li><p>Create an object called “cool_object” and assign it the number 100.</p></li>
@@ -266,13 +272,14 @@ argument or maybe the first two. After that, I always use <code>name = value</co
 <li><a class="nav-link" href="#r-basics"><span class="header-section-number">7</span> R basics and workflows</a></li>
 <li><a class="nav-link" href="#basics-of-working-with-r-at-the-command-line-and-rstudio-goodies"><span class="header-section-number">7.1</span> Basics of working with R at the command line and RStudio goodies</a></li>
 <li><a class="nav-link" href="#in-rstudio---where-we-will-live"><span class="header-section-number">7.2</span> In Rstudio - where we will live</a></li>
+<li><a class="nav-link" href="#section-2"><span class="header-section-number">7.3</span></a></li>
 <li>
-<a class="nav-link" href="#workspace-and-working-directory"><span class="header-section-number">7.3</span> Workspace and working directory</a><ul class="nav navbar-nav">
-<li><a class="nav-link" href="#workspace-.rdata"><span class="header-section-number">7.3.1</span> Workspace, .RData</a></li>
-<li><a class="nav-link" href="#working-directory"><span class="header-section-number">7.3.2</span> Working directory</a></li>
+<a class="nav-link" href="#workspace-and-working-directory"><span class="header-section-number">7.4</span> Workspace and working directory</a><ul class="nav navbar-nav">
+<li><a class="nav-link" href="#workspace-.rdata"><span class="header-section-number">7.4.1</span> Workspace, .RData</a></li>
+<li><a class="nav-link" href="#working-directory"><span class="header-section-number">7.4.2</span> Working directory</a></li>
 </ul>
 </li>
-<li><a class="nav-link" href="#exercises"><span class="header-section-number">7.4</span> Exercises</a></li>
+<li><a class="nav-link" href="#exercises"><span class="header-section-number">7.5</span> Exercises</a></li>
 </ul>
 
       <div class="book-extra">

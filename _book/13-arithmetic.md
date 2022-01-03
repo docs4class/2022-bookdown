@@ -79,7 +79,7 @@ z<-c(5,9,1,0)
 ```
 
 
-Note the use of the function c to concatenate or âglue togetherâ individual elements. This function
+Note the use of the function c to concatenate or glue together individual elements. This function
 can be used much more widely, for example
 
 
@@ -111,9 +111,7 @@ seq(8,20,length=6)
 ```
 
 
-These examples illustrate that many functions in R have optional arguments, in this case, either
-the step length or the total length of the sequence (it doesnât make sense to use both). If you leave
-out both of these options, R will make its own default choice, in this case assuming a step length
+These examples illustrate that many functions in R have optional arguments, in this case, either the step length or the total length of the sequence (it doesn't make sense to use both). If you leave out both of these options, R will make its own default choice, in this case assuming a step length
 of 1. So, for example,
 
 
@@ -128,8 +126,8 @@ x
 also generates a vector of integers from 1 to 10.
 
 
-At this point itâs worth mentioning the help facility. If you donât know how to use a function,
-or donât know what the options or default values are, type help(functionname) where functionname is the name of the function you are interested in. This will usually help and will often include examples to make things even clearer.
+At this point it's worth mentioning the help facility. If you don't know how to use a function,
+or don't know what the options or default values are, type help(functionname) where functionname is the name of the function you are interested in. This will usually help and will often include examples to make things even clearer.
 
 
 Another useful function for building vectors is the rep command for repeating things. For
@@ -208,7 +206,7 @@ mean(a)
 #> [1] 6.037857
 ```
 
-The median of a data set is data point that fall in the middle of all the other points when they are ordered from lowest to highest. Again, something easily found even without a calculator if you have small data sets, however humans can miscount and some data sets are just too massive for us to do on our own. R never makes these counting mistakes and by using a simple function you save yourself hours of mundane counting. Start the same way you found mean by creating an object with various numbers and then simply use the "median" function. 
+The median of a data set is data point that fall in the middle of all the other points when they are ordered from lowest to highest. Again, something easily found even without a calculator if you have small data sets, however humans can miscount and some data sets are just too massive for us to do on our own. R never makes these counting mistakes and by using a simple function you save yourself hours of mundane counting. Start the same way you found mean by creating an object with various numbers and then simply use the `median` function. 
 
 
 ```r
@@ -218,7 +216,7 @@ median(b)
 #> [1] 3.9
 ```
 
-Many people have heard of standard deviation, but not many can provide an accurate definition. Standard deviation is the measure of variance (see next paragraph) between numbers in a data set and that data set's mean. Typically a lower standard deviation is what you want to see as this proves there is little variance in your data set and that typically means a higher correlation. If you wanted to find this by hand you would have to find the square root of the variance between each point and the mean. This is easy if you have all the numbers you need, but that is almost never the case and thus you would have to calculate all that variance by hand and that is too much work. Why take all those extra steps when R can do it for you? The "sd()" function does all the work without any hassle, all you have to do is identify the object you want it to find the standard deviation of. 
+Many people have heard of standard deviation, but not many can provide an accurate definition. Standard deviation is the measure of variance (see next paragraph) between numbers in a data set and that data set's mean. Typically a lower standard deviation is what you want to see as this proves there is little variance in your data set and that typically means a higher correlation. If you wanted to find this by hand you would have to find the square root of the variance between each point and the mean. This is easy if you have all the numbers you need, but that is almost never the case and thus you would have to calculate all that variance by hand and that is too much work. Why take all those extra steps when R can do it for you? The `sd()` function does all the work without any hassle, all you have to do is identify the object you want it to find the standard deviation of. 
 
 
 ```r

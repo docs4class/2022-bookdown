@@ -2,7 +2,7 @@
 
 ## CBind and RBind
 
-Matrices can be created in R in a variety of ways. Perhaps the simplest is to create the columns (just a couple of objects)and then glue them together with the command cbind. For example,
+Matrices can be created in R in a variety of ways. Perhaps the simplest is to create the columns (just a couple of objects) and then glue them together with the command cbind. For example,
 
 ```r
 x<-c(5,7,9)

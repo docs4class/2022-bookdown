@@ -22,6 +22,8 @@ Notice the default panes:
 * Environment/History (tabbed in upper right)
 * Files/Plots/Packages/Help (tabbed in lower right)
 
+##
+
 [Rstudio Console](http://www.sthda.com/sthda/RDoc/images/rstudio.png)
 
 FYI: you can change the default location of the panes, among many other things: [Customizing RStudio](https://support.rstudio.com/hc/en-us/articles/200549016-Customizing-the-RStudio-IDE).
@@ -102,7 +104,7 @@ turner_rocks
 #> [1] 8
 ```
 
-Implicit contract with the computer / scripting language: Computer will do tedious computation for you. In return, you will be completely precise in your instructions. Typos matter. Case matters. Get better at typing.
+**Implicit contract with the computer / scripting language: Computer will do tedious computation for you. In return, you will be completely precise in your instructions. Typos matter. Case matters. Get better at typing.**
 
 R has a mind-blowing collection of built-in functions that are accessed like so:
 
@@ -154,7 +156,7 @@ Not all functions have (or require) arguments:
 
 ```r
 date()
-#> [1] "Sun Jan 02 15:37:12 2022"
+#> [1] "Sun Jan 02 21:13:46 2022"
 ```
 
 Now look at your workspace -- in the upper right pane. The workspace is where user-defined objects accumulate. You can also get a listing of these objects with commands:
