@@ -2,7 +2,7 @@
 
 ## Introduction
 
-For more help **PLEASE** check out  [Introduction to dplyr](https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html) introducing the key functionality of the dplyr package.
+For more help **PLEASE** check out  [Introduction to dplyr](https://dplyr.tidyverse.org/articles/dplyr.html) introducing the key functionality of the dplyr package.
 
 > Your life is about to change.  For the better, even.
 
@@ -256,16 +256,16 @@ flights %>% group_by(month, day) %>% sample_n(3)
 #> # Groups:   month, day [365]
 #>     year month   day dep_time sched_dep_time dep_delay
 #>    <int> <int> <int>    <int>          <int>     <dbl>
-#>  1  2013     1     1     1531           1520        11
-#>  2  2013     1     1      820            820         0
-#>  3  2013     1     1     1859           1900        -1
-#>  4  2013     1     2     1602           1529        33
-#>  5  2013     1     2     1642           1635         7
-#>  6  2013     1     2     1240           1240         0
-#>  7  2013     1     3      944            745       119
-#>  8  2013     1     3     1129           1114        15
-#>  9  2013     1     3     1145           1145         0
-#> 10  2013     1     4     1640           1645        -5
+#>  1  2013     1     1     1524           1457        27
+#>  2  2013     1     1     2037           2010        27
+#>  3  2013     1     1     1455           1500        -5
+#>  4  2013     1     2     1609           1550        19
+#>  5  2013     1     2     2119           2110         9
+#>  6  2013     1     2     2030           2028         2
+#>  7  2013     1     3      808            810        -2
+#>  8  2013     1     3     1737           1745        -8
+#>  9  2013     1     3     1652           1700        -8
+#> 10  2013     1     4      719            700        19
 #> # ... with 1,085 more rows, and 13 more variables:
 #> #   arr_time <int>, sched_arr_time <int>, arr_delay <dbl>,
 #> #   carrier <chr>, flight <int>, tailnum <chr>,
@@ -872,19 +872,24 @@ options(dplyr.width = Inf, dplyr.print_min = 6)
 options(dplyr.width = NULL, dplyr.print_min = 10)
 ```
 
+## Excercies
 
-## Resources
+Using the nycflights13 dataset and the dplyr package, answer these questions.  Some answers are given in square brackets for you to check your answers.
 
-* Release announcements for [version 0.3](http://blog.rstudio.org/2014/10/13/dplyr-0-3-2/) and [version 0.4](http://blog.rstudio.org/2015/01/09/dplyr-0-4-0/)
-* [dplyr reference manual and vignettes](http://cran.r-project.org/web/packages/dplyr/)
-* [Two-table vignette](http://cran.r-project.org/web/packages/dplyr/vignettes/two-table.html) covering joins and set operations
+1. How many flights in Sept were late departing flights? [7815]
+2. How many flights in Sept were late departing flights that originated at JFK airport? [2649]
+3. How many flights in Sept were late departing flights with an origin of JFK airport and had an destination of anywhere except MIA? [2572]
+4. Which carrier had the most flights in this data set?  [UA with 58665]
+5. Which destination had the most flights in this data set? [ORD with 17283]
+6. Which destination had the most flights with departure delays of greater than 60 minutes in this data set? [ORD with 1480]
+7. What was the longest arrival delay in this dataset? [1272]
+8. Which carrier in September had the most late departing flights? [UA with 1559]
+9. Create a variable called total.annoyance which arrival delay plus the departure delay for each flight.
+10. Which carrier with more than 10 flights in September had greatest % late departing flights? 
+
+
+## A Neat Resource
+
 * [RStudio's Data Wrangling Cheat Sheet](http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf) for dplyr and tidyr
-* [dplyr GitHub repo](https://github.com/hadley/dplyr) and [list of releases](https://github.com/hadley/dplyr/releases)
 
-
-## Data School
-
-* [Blog](http://www.dataschool.io/)
-* [Email newsletter](http://www.dataschool.io/subscribe/)
-* [YouTube channel](http://youtube.com/dataschool)
 

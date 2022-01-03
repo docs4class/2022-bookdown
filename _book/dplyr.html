@@ -82,7 +82,7 @@
 <h2>
 <span class="header-section-number">14.1</span> Introduction<a class="anchor" aria-label="anchor" href="#introduction-3"><i class="fas fa-link"></i></a>
 </h2>
-<p>For more help <strong>PLEASE</strong> check out <a href="https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html">Introduction to dplyr</a> introducing the key functionality of the dplyr package.</p>
+<p>For more help <strong>PLEASE</strong> check out <a href="https://dplyr.tidyverse.org/articles/dplyr.html">Introduction to dplyr</a> introducing the key functionality of the dplyr package.</p>
 <blockquote>
 <p>Your life is about to change. For the better, even.</p>
 </blockquote>
@@ -331,16 +331,16 @@ Groups of rows:</li>
 <span class="co">#&gt; # Groups:   month, day [365]</span>
 <span class="co">#&gt;     year month   day dep_time sched_dep_time dep_delay</span>
 <span class="co">#&gt;    &lt;int&gt; &lt;int&gt; &lt;int&gt;    &lt;int&gt;          &lt;int&gt;     &lt;dbl&gt;</span>
-<span class="co">#&gt;  1  2013     1     1     1531           1520        11</span>
-<span class="co">#&gt;  2  2013     1     1      820            820         0</span>
-<span class="co">#&gt;  3  2013     1     1     1859           1900        -1</span>
-<span class="co">#&gt;  4  2013     1     2     1602           1529        33</span>
-<span class="co">#&gt;  5  2013     1     2     1642           1635         7</span>
-<span class="co">#&gt;  6  2013     1     2     1240           1240         0</span>
-<span class="co">#&gt;  7  2013     1     3      944            745       119</span>
-<span class="co">#&gt;  8  2013     1     3     1129           1114        15</span>
-<span class="co">#&gt;  9  2013     1     3     1145           1145         0</span>
-<span class="co">#&gt; 10  2013     1     4     1640           1645        -5</span>
+<span class="co">#&gt;  1  2013     1     1     1524           1457        27</span>
+<span class="co">#&gt;  2  2013     1     1     2037           2010        27</span>
+<span class="co">#&gt;  3  2013     1     1     1455           1500        -5</span>
+<span class="co">#&gt;  4  2013     1     2     1609           1550        19</span>
+<span class="co">#&gt;  5  2013     1     2     2119           2110         9</span>
+<span class="co">#&gt;  6  2013     1     2     2030           2028         2</span>
+<span class="co">#&gt;  7  2013     1     3      808            810        -2</span>
+<span class="co">#&gt;  8  2013     1     3     1737           1745        -8</span>
+<span class="co">#&gt;  9  2013     1     3     1652           1700        -8</span>
+<span class="co">#&gt; 10  2013     1     4      719            700        19</span>
 <span class="co">#&gt; # ... with 1,085 more rows, and 13 more variables:</span>
 <span class="co">#&gt; #   arr_time &lt;int&gt;, sched_arr_time &lt;int&gt;, arr_delay &lt;dbl&gt;,</span>
 <span class="co">#&gt; #   carrier &lt;chr&gt;, flight &lt;int&gt;, tailnum &lt;chr&gt;,</span>
@@ -896,31 +896,31 @@ Groups of rows:</li>
 <span class="co"># reset options (or just close R)</span>
 <span class="fu"><a href="https://rdrr.io/r/base/options.html">options</a></span><span class="op">(</span>dplyr.width <span class="op">=</span> <span class="cn">NULL</span>, dplyr.print_min <span class="op">=</span> <span class="fl">10</span><span class="op">)</span></code></pre></div>
 </div>
-<div id="resources" class="section level2" number="14.12">
+<div id="excercies" class="section level2" number="14.12">
 <h2>
-<span class="header-section-number">14.12</span> Resources<a class="anchor" aria-label="anchor" href="#resources"><i class="fas fa-link"></i></a>
+<span class="header-section-number">14.12</span> Excercies<a class="anchor" aria-label="anchor" href="#excercies"><i class="fas fa-link"></i></a>
+</h2>
+<p>Using the nycflights13 dataset and the dplyr package, answer these questions. Some answers are given in square brackets for you to check your answers.</p>
+<ol style="list-style-type: decimal">
+<li>How many flights in Sept were late departing flights? [7815]</li>
+<li>How many flights in Sept were late departing flights that originated at JFK airport? [2649]</li>
+<li>How many flights in Sept were late departing flights with an origin of JFK airport and had an destination of anywhere except MIA? [2572]</li>
+<li>Which carrier had the most flights in this data set? [UA with 58665]</li>
+<li>Which destination had the most flights in this data set? [ORD with 17283]</li>
+<li>Which destination had the most flights with departure delays of greater than 60 minutes in this data set? [ORD with 1480]</li>
+<li>What was the longest arrival delay in this dataset? [1272]</li>
+<li>Which carrier in September had the most late departing flights? [UA with 1559]</li>
+<li>Create a variable called total.annoyance which arrival delay plus the departure delay for each flight.</li>
+<li>Which carrier with more than 10 flights in September had greatest % late departing flights?</li>
+</ol>
+</div>
+<div id="a-neat-resource" class="section level2" number="14.13">
+<h2>
+<span class="header-section-number">14.13</span> A Neat Resource<a class="anchor" aria-label="anchor" href="#a-neat-resource"><i class="fas fa-link"></i></a>
 </h2>
 <ul>
-<li>Release announcements for <a href="http://blog.rstudio.org/2014/10/13/dplyr-0-3-2/">version 0.3</a> and <a href="http://blog.rstudio.org/2015/01/09/dplyr-0-4-0/">version 0.4</a>
-</li>
-<li><a href="http://cran.r-project.org/web/packages/dplyr/">dplyr reference manual and vignettes</a></li>
-<li>
-<a href="http://cran.r-project.org/web/packages/dplyr/vignettes/two-table.html">Two-table vignette</a> covering joins and set operations</li>
 <li>
 <a href="http://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf">RStudio’s Data Wrangling Cheat Sheet</a> for dplyr and tidyr</li>
-<li>
-<a href="https://github.com/hadley/dplyr">dplyr GitHub repo</a> and <a href="https://github.com/hadley/dplyr/releases">list of releases</a>
-</li>
-</ul>
-</div>
-<div id="data-school" class="section level2" number="14.13">
-<h2>
-<span class="header-section-number">14.13</span> Data School<a class="anchor" aria-label="anchor" href="#data-school"><i class="fas fa-link"></i></a>
-</h2>
-<ul>
-<li><a href="http://www.dataschool.io/">Blog</a></li>
-<li><a href="http://www.dataschool.io/subscribe/">Email newsletter</a></li>
-<li><a href="http://youtube.com/dataschool">YouTube channel</a></li>
 </ul>
 </div>
 </div>
@@ -942,8 +942,8 @@ Groups of rows:</li>
 <li><a class="nav-link" href="#creating-data-frames-data_frame"><span class="header-section-number">14.9</span> Creating data frames: data_frame</a></li>
 <li><a class="nav-link" href="#joining-merging-tables-left_join-right_join-inner_join-full_join-semi_join-anti_join"><span class="header-section-number">14.10</span> Joining (merging) tables: left_join, right_join, inner_join, full_join, semi_join, anti_join</a></li>
 <li><a class="nav-link" href="#viewing-more-output-print-view"><span class="header-section-number">14.11</span> Viewing more output: print, View</a></li>
-<li><a class="nav-link" href="#resources"><span class="header-section-number">14.12</span> Resources</a></li>
-<li><a class="nav-link" href="#data-school"><span class="header-section-number">14.13</span> Data School</a></li>
+<li><a class="nav-link" href="#excercies"><span class="header-section-number">14.12</span> Excercies</a></li>
+<li><a class="nav-link" href="#a-neat-resource"><span class="header-section-number">14.13</span> A Neat Resource</a></li>
 </ul>
 
       <div class="book-extra">

@@ -78,8 +78,8 @@ grouping-and-counting-summarise-tally-count-group_size-n_groups-ungroup
 creating-data-frames-data_frame
 joining-merging-tables-left_join-right_join-inner_join-full_join-semi_join-anti_join
 viewing-more-output-print-view
-resources
-data-school
+excercies
+a-neat-resource
 more-dplyr
 introduction-4
 single-table-verbs-1
