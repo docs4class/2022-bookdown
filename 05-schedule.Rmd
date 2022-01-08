@@ -4,7 +4,8 @@ This is a tentative schedule, **BUT** I will do my very best to stick to it, so 
 
 ## Spring 2022  {-}
 
-|:-------|:------				
+Date | Topic | 				
+|:-------|:------			
 | 	Date	| 	A1	| 
 | 	Monday, January 10, 2022	| 	TARGET STORY & INSTALL	| 
 | 	Wednesday, January 12, 2022	| 	BASICS 1	| 

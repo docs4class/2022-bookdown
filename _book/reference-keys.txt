@@ -23,9 +23,8 @@ schedule
 data-science-overview
 what-good-is-data-science
 elephant-in-the-room-r
-section
+the-bad-news
 about-r
-section-1
 r-vs.-excel
 both-are-useful
 differences-between-r-and-excel
@@ -38,7 +37,7 @@ summary-using-r-and-excel
 r-basics
 basics-of-working-with-r-at-the-command-line-and-rstudio-goodies
 in-rstudio---where-we-will-live
-section-2
+section
 workspace-and-working-directory
 workspace-.rdata
 working-directory

@@ -6,9 +6,15 @@ Data analytics are increasingly important components of decision-making in any b
 
 Both R and Excel are excellent data analytics tools, but they each have distinct functionality.
 
-> Please make sure you can explain the distict funtions of both R and Excel!  YOU WILL NEED TO KNOW THIS!
 
-Excel is a well-known software program included in the Microsoft Office Suite. Used to create spreadsheets, execute calculations, produce charts, and perform statistical analysis, Excel is used by many professionals across a variety of industries.  PC's BADM 299 prepares you well for using Excel.
+:::{.rmdimportant}
+
+> **Please make sure you can explain the distict functions of both R and Excel!  YOU WILL NEED TO KNOW THIS!**
+
+
+:::
+
+Excel is a well-known software program included in the Microsoft Office Suite. Used to create spreadsheets, execute calculations, produce charts, and perform statistical analysis, Excel is used by many professionals across a variety of industries.  PC's **BADM 299** prepares you well for using Excel.
 
 R is a free, open-source programming language and software environment that’s frequently used in big data analysis and statistical computing. R has many advanced functions and capabilities.
 

@@ -4,7 +4,8 @@ This is a tentative schedule, **BUT** I will do my very best to stick to it, so 
 
 ## Spring 2022  {-}
 
-|:-------|:------				
+Date | Topic | 				
+|:-------|:------			
 | 	Date	| 	A1	| 
 | 	Monday, January 10, 2022	| 	TARGET STORY & INSTALL	| 
 | 	Wednesday, January 12, 2022	| 	BASICS 1	| 
@@ -19,18 +20,18 @@ This is a tentative schedule, **BUT** I will do my very best to stick to it, so 
 | 	Wednesday, February 2, 2022	| 	Class	| 
 | 	Friday, February 4, 2022	| 	QUIZ	| 
 | 	Monday, February 7, 2022	| 	Social Dilemma and Review	| 
-| 	Wednesday, February 9, 2022	| 	EXAM 1	| 
+| 	Wednesday, February 9, 2022	| 	**EXAM 1**	| 
 | 	Friday, February 11, 2022	| 	Class	| 
 | 	Monday, February 14, 2022	| 	Class	| 
 | 	Wednesday, February 16, 2022	| 	Online Class	| 
-| 	Friday, February 18, 2022	| 	Oniine QUIZ	| 
+| 	Friday, February 18, 2022	| 	Online QUIZ	| 
 | 	Monday, February 21, 2022	| 	Class	| 
 | 	Wednesday, February 23, 2022	| 	Class	| 
 | 	Friday, February 25, 2022	| 	QUIZ	| 
 | 	Monday, February 28, 2022	| 	Class	| 
 | 	Wednesday, March 2, 2022	| 	Class	| 
 | 	Friday, March 4, 2022	| 	QUIZ	| 
-| 	Monday, March 7, 2022	| 	EXAM 2	| 
+| 	Monday, March 7, 2022	| 	**EXAM 2**	| 
 | 	Wednesday, March 9, 2022	| 	Online Class	| 
 | 	Friday, March 11, 2022	| 	Online Class	| 
 | 	Monday, March 14, 2022	| 	SPRING BREAK	| 
@@ -46,7 +47,7 @@ This is a tentative schedule, **BUT** I will do my very best to stick to it, so 
 | 	Wednesday, April 6, 2022	| 	Class	| 
 | 	Friday, April 8, 2022	| 	QUIZ	| 
 | 	Monday, April 11, 2022	| 	Class	| 
-| 	Wednesday, April 13, 2022	| 	EXAM 3	| 
+| 	Wednesday, April 13, 2022	| 	**EXAM 3**	| 
 | 	Friday, April 15, 2022	| 	Easter Holidays	| 
 | 	Monday, April 18, 2022	| 	Easter Holidays	| 
 | 	Wednesday, April 20, 2022	| 	Class	| 
@@ -54,5 +55,5 @@ This is a tentative schedule, **BUT** I will do my very best to stick to it, so 
 | 	Monday, April 25, 2022	| 	Class	| 
 | 	Wednesday, April 27, 2022	| 	QUIZ	| 
 | 	Friday, April 29, 2022	| 	LAST DAY	| 
-| 	Monday, May 2, 2022	| 	Final Exam 5:30 p.m. – E period	| 
+| 	Monday, May 2, 2022	| 	**Final Exam** 5:30 p.m. – E period	| 
 
