@@ -17,6 +17,8 @@ accommodations
 honor-code-and-plagiarism
 first-generation-version
 continuing-advocate-version
+our-class-rhythm
+end-in-mind
 schedule
 data-science-overview
 what-good-is-data-science
@@ -63,9 +65,6 @@ quiz-three
 playing-with-data-using-mtcars
 practicing-with-mtcars-data-set
 excerises-for-you
-practice-final-exam
-meter-freestyle-olympic-winning-time-seconds
-starwars-fun
 dplyr
 introduction-3
 single-table-verbs
@@ -114,6 +113,9 @@ review-questions-2
 dealing-with-errors
 introduction-6
 troubleshooting-typical-errors
+practice-final-exam
+meter-freestyle-olympic-winning-time-seconds
+starwars-fun
 about
 usage
 render-book

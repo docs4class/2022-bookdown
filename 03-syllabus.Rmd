@@ -66,6 +66,12 @@ I will frequently give readings or assignments for you to complete prior to the 
 
 **Phones are not allowed to be used in class without the instructor’s prior consent.** If you have a need of a phone during class please let me know before class. Unauthorized use of electronic devices may result in the lowering of the grade or dismissal from the class.  **I mean this.**
 
+::: {.rmdimportant}
+
+**The phone thing?  I mean this.**
+
+:::
+
 
 ## Attendance
 
@@ -92,3 +98,26 @@ I am a Presby First+ Advocate. I am committed to supporting first-generation stu
 
 
 
+
+# Our Class Rhythm
+
+::: {.rmdimportant}
+
+**Monday:** Wrap up previous topic and introduce what you've pre-read about.  Chat.  Play.  Work some examples.  Make sure the topics applies to real-life.
+
+**Wednesday:**  Work more examples.  Chat as needed.  **Live our best lives.  :)**.  
+
+**Friday:** Apply what we've learned -- demonstrate your mastery (typically in the form of a quiz, lab, or assignment).  Rinse.  Repeat.
+
+:::
+
+
+# End in Mind
+
+::: {.rmdimportant}
+
+**Dana Simmons:** "Can you predict which students will enroll at PC?"
+
+**Christina Miller:** ??? Well, can you? ???
+
+:::

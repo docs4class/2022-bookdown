@@ -4,16 +4,16 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title>Chapter 12 Playing With Data (Using mtcars) | BADM 371 Intro to Data Analytics</title>
+<title>Chapter 14 Playing With Data (Using mtcars) | BADM 371 Intro to Data Analytics</title>
 <meta name="author" content="BADM 371">
-<meta name="description" content="12.1 Practicing with mtcars data set This demonstration is based on the datasset mtcars. Read in mtcars data(mtcars) View first few rows and last few rows of mtcars dataframe using functions...">
+<meta name="description" content="14.1 Practicing with mtcars data set This demonstration is based on the datasset mtcars. Read in mtcars data(mtcars) View first few rows and last few rows of mtcars dataframe using functions...">
 <meta name="generator" content="bookdown 0.24 with bs4_book()">
-<meta property="og:title" content="Chapter 12 Playing With Data (Using mtcars) | BADM 371 Intro to Data Analytics">
+<meta property="og:title" content="Chapter 14 Playing With Data (Using mtcars) | BADM 371 Intro to Data Analytics">
 <meta property="og:type" content="book">
-<meta property="og:description" content="12.1 Practicing with mtcars data set This demonstration is based on the datasset mtcars. Read in mtcars data(mtcars) View first few rows and last few rows of mtcars dataframe using functions...">
+<meta property="og:description" content="14.1 Practicing with mtcars data set This demonstration is based on the datasset mtcars. Read in mtcars data(mtcars) View first few rows and last few rows of mtcars dataframe using functions...">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Chapter 12 Playing With Data (Using mtcars) | BADM 371 Intro to Data Analytics">
-<meta name="twitter:description" content="12.1 Practicing with mtcars data set This demonstration is based on the datasset mtcars. Read in mtcars data(mtcars) View first few rows and last few rows of mtcars dataframe using functions...">
+<meta name="twitter:title" content="Chapter 14 Playing With Data (Using mtcars) | BADM 371 Intro to Data Analytics">
+<meta name="twitter:description" content="14.1 Practicing with mtcars data set This demonstration is based on the datasset mtcars. Read in mtcars data(mtcars) View first few rows and last few rows of mtcars dataframe using functions...">
 <!-- JS --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.6/clipboard.min.js" integrity="sha256-inc5kl9MA1hkeYUt+EC3BhlIgyp/2jDIyBLS6k3UxPI=" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/6.4.6/fuse.js" integrity="sha512-zv6Ywkjyktsohkbp9bb45V6tEMoWhzFzXis+LrMehmJZZSys19Yxf1dopHx7WzIKxr5tK2dVcYmaCk2uqdjF4A==" crossorigin="anonymous"></script><script src="https://kit.fontawesome.com/6ecbd6c532.js" crossorigin="anonymous"></script><script src="libs/header-attrs-2.11/header-attrs.js"></script><script src="libs/jquery-3.6.0/jquery-3.6.0.min.js"></script><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <link href="libs/bootstrap-4.6.0/bootstrap.min.css" rel="stylesheet">
 <script src="libs/bootstrap-4.6.0/bootstrap.bundle.min.js"></script><script src="libs/bs3compat-0.3.1/transition.js"></script><script src="libs/bs3compat-0.3.1/tabs.js"></script><script src="libs/bs3compat-0.3.1/bs3compat.js"></script><link href="libs/bs4_book-1.0.0/bs4_book.css" rel="stylesheet">
@@ -41,31 +41,33 @@
         <ul class="book-toc list-unstyled">
 <li><a class="" href="index.html"><span class="header-section-number">1</span> Introduction</a></li>
 <li><a class="" href="syllabus.html"><span class="header-section-number">2</span> Syllabus</a></li>
-<li><a class="" href="schedule.html"><span class="header-section-number">3</span> Schedule</a></li>
-<li><a class="" href="data-science-overview.html"><span class="header-section-number">4</span> Data Science Overview</a></li>
-<li><a class="" href="elephant-in-the-room-r.html"><span class="header-section-number">5</span> Elephant in the room: R</a></li>
-<li><a class="" href="r-vs.-excel.html"><span class="header-section-number">6</span> R vs. Excel</a></li>
-<li><a class="" href="r-basics.html"><span class="header-section-number">7</span> R basics and workflows</a></li>
-<li><a class="" href="objects-and-arithmetic.html"><span class="header-section-number">8</span> Objects and Arithmetic</a></li>
-<li><a class="" href="summaries-and-subscripting.html"><span class="header-section-number">9</span> Summaries and Subscripting</a></li>
-<li><a class="" href="matrices.html"><span class="header-section-number">10</span> Matrices</a></li>
-<li><a class="" href="data-analytics-i-quizzes.html"><span class="header-section-number">11</span> Data Analytics I Quizzes</a></li>
-<li><a class="active" href="playing-with-data-using-mtcars.html"><span class="header-section-number">12</span> Playing With Data (Using mtcars)</a></li>
-<li><a class="" href="practice-final-exam.html"><span class="header-section-number">13</span> Practice Final Exam</a></li>
-<li><a class="" href="dplyr.html"><span class="header-section-number">14</span> DPLYR</a></li>
-<li><a class="" href="more-dplyr.html"><span class="header-section-number">15</span> More DPLYR</a></li>
-<li><a class="" href="gdh-ice-cream.html"><span class="header-section-number">16</span> GDH Ice Cream</a></li>
-<li><a class="" href="linear-regression.html"><span class="header-section-number">17</span> Linear Regression</a></li>
-<li><a class="" href="linear-regression-practice.html"><span class="header-section-number">18</span> Linear Regression Practice</a></li>
-<li><a class="" href="logistic-regression.html"><span class="header-section-number">19</span> Logistic Regression</a></li>
-<li><a class="" href="dealing-with-errors.html"><span class="header-section-number">20</span> Dealing with Errors</a></li>
-<li><a class="" href="about.html"><span class="header-section-number">21</span> About</a></li>
-<li><a class="" href="hello-bookdown.html"><span class="header-section-number">22</span> Hello bookdown</a></li>
-<li><a class="" href="cross.html"><span class="header-section-number">23</span> Cross-references</a></li>
-<li><a class="" href="parts.html"><span class="header-section-number">24</span> Parts</a></li>
-<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">25</span> Footnotes and citations</a></li>
-<li><a class="" href="blocks.html"><span class="header-section-number">26</span> Blocks</a></li>
-<li><a class="" href="sharing-your-book.html"><span class="header-section-number">27</span> Sharing your book</a></li>
+<li><a class="" href="our-class-rhythm.html"><span class="header-section-number">3</span> Our Class Rhythm</a></li>
+<li><a class="" href="end-in-mind.html"><span class="header-section-number">4</span> End in Mind</a></li>
+<li><a class="" href="schedule.html"><span class="header-section-number">5</span> Schedule</a></li>
+<li><a class="" href="data-science-overview.html"><span class="header-section-number">6</span> Data Science Overview</a></li>
+<li><a class="" href="elephant-in-the-room-r.html"><span class="header-section-number">7</span> Elephant in the room: R</a></li>
+<li><a class="" href="r-vs.-excel.html"><span class="header-section-number">8</span> R vs. Excel</a></li>
+<li><a class="" href="r-basics.html"><span class="header-section-number">9</span> R basics and workflows</a></li>
+<li><a class="" href="objects-and-arithmetic.html"><span class="header-section-number">10</span> Objects and Arithmetic</a></li>
+<li><a class="" href="summaries-and-subscripting.html"><span class="header-section-number">11</span> Summaries and Subscripting</a></li>
+<li><a class="" href="matrices.html"><span class="header-section-number">12</span> Matrices</a></li>
+<li><a class="" href="data-analytics-i-quizzes.html"><span class="header-section-number">13</span> Data Analytics I Quizzes</a></li>
+<li><a class="active" href="playing-with-data-using-mtcars.html"><span class="header-section-number">14</span> Playing With Data (Using mtcars)</a></li>
+<li><a class="" href="dplyr.html"><span class="header-section-number">15</span> DPLYR</a></li>
+<li><a class="" href="more-dplyr.html"><span class="header-section-number">16</span> More DPLYR</a></li>
+<li><a class="" href="gdh-ice-cream.html"><span class="header-section-number">17</span> GDH Ice Cream</a></li>
+<li><a class="" href="linear-regression.html"><span class="header-section-number">18</span> Linear Regression</a></li>
+<li><a class="" href="linear-regression-practice.html"><span class="header-section-number">19</span> Linear Regression Practice</a></li>
+<li><a class="" href="logistic-regression.html"><span class="header-section-number">20</span> Logistic Regression</a></li>
+<li><a class="" href="dealing-with-errors.html"><span class="header-section-number">21</span> Dealing with Errors</a></li>
+<li><a class="" href="practice-final-exam.html"><span class="header-section-number">22</span> Practice Final Exam</a></li>
+<li><a class="" href="about.html"><span class="header-section-number">23</span> About</a></li>
+<li><a class="" href="hello-bookdown.html"><span class="header-section-number">24</span> Hello bookdown</a></li>
+<li><a class="" href="cross.html"><span class="header-section-number">25</span> Cross-references</a></li>
+<li><a class="" href="parts.html"><span class="header-section-number">26</span> Parts</a></li>
+<li><a class="" href="footnotes-and-citations.html"><span class="header-section-number">27</span> Footnotes and citations</a></li>
+<li><a class="" href="blocks.html"><span class="header-section-number">28</span> Blocks</a></li>
+<li><a class="" href="sharing-your-book.html"><span class="header-section-number">29</span> Sharing your book</a></li>
 <li><a class="" href="references.html">References</a></li>
 </ul>
 
@@ -74,13 +76,13 @@
         </div>
       </nav>
 </div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="playing-with-data-using-mtcars" class="section level1" number="12">
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="playing-with-data-using-mtcars" class="section level1" number="14">
 <h1>
-<span class="header-section-number">12</span> Playing With Data (Using mtcars)<a class="anchor" aria-label="anchor" href="#playing-with-data-using-mtcars"><i class="fas fa-link"></i></a>
+<span class="header-section-number">14</span> Playing With Data (Using mtcars)<a class="anchor" aria-label="anchor" href="#playing-with-data-using-mtcars"><i class="fas fa-link"></i></a>
 </h1>
-<div id="practicing-with-mtcars-data-set" class="section level2" number="12.1">
+<div id="practicing-with-mtcars-data-set" class="section level2" number="14.1">
 <h2>
-<span class="header-section-number">12.1</span> Practicing with <code>mtcars</code> data set<a class="anchor" aria-label="anchor" href="#practicing-with-mtcars-data-set"><i class="fas fa-link"></i></a>
+<span class="header-section-number">14.1</span> Practicing with <code>mtcars</code> data set<a class="anchor" aria-label="anchor" href="#practicing-with-mtcars-data-set"><i class="fas fa-link"></i></a>
 </h2>
 <p>This demonstration is based on the datasset <code>mtcars</code>.</p>
 <ol style="list-style-type: decimal">
@@ -152,9 +154,9 @@
 <span class="fu"><a href="https://rdrr.io/r/base/dim.html">dim</a></span><span class="op">(</span><span class="va">mtcars</span><span class="op">)</span>
 <span class="co">#&gt; [1] 32 11</span></code></pre></div>
 </div>
-<div id="excerises-for-you" class="section level2" number="12.2">
+<div id="excerises-for-you" class="section level2" number="14.2">
 <h2>
-<span class="header-section-number">12.2</span> Excerises for you:<a class="anchor" aria-label="anchor" href="#excerises-for-you"><i class="fas fa-link"></i></a>
+<span class="header-section-number">14.2</span> Excerises for you:<a class="anchor" aria-label="anchor" href="#excerises-for-you"><i class="fas fa-link"></i></a>
 </h2>
 <ol style="list-style-type: decimal">
 <li><p>Find the minimum and maximum value of <code>mpg</code></p></li>
@@ -211,14 +213,14 @@
 </div>
 </div>
   <div class="chapter-nav">
-<div class="prev"><a href="data-analytics-i-quizzes.html"><span class="header-section-number">11</span> Data Analytics I Quizzes</a></div>
-<div class="next"><a href="practice-final-exam.html"><span class="header-section-number">13</span> Practice Final Exam</a></div>
+<div class="prev"><a href="data-analytics-i-quizzes.html"><span class="header-section-number">13</span> Data Analytics I Quizzes</a></div>
+<div class="next"><a href="dplyr.html"><span class="header-section-number">15</span> DPLYR</a></div>
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
-<li><a class="nav-link" href="#playing-with-data-using-mtcars"><span class="header-section-number">12</span> Playing With Data (Using mtcars)</a></li>
-<li><a class="nav-link" href="#practicing-with-mtcars-data-set"><span class="header-section-number">12.1</span> Practicing with mtcars data set</a></li>
-<li><a class="nav-link" href="#excerises-for-you"><span class="header-section-number">12.2</span> Excerises for you:</a></li>
+<li><a class="nav-link" href="#playing-with-data-using-mtcars"><span class="header-section-number">14</span> Playing With Data (Using mtcars)</a></li>
+<li><a class="nav-link" href="#practicing-with-mtcars-data-set"><span class="header-section-number">14.1</span> Practicing with mtcars data set</a></li>
+<li><a class="nav-link" href="#excerises-for-you"><span class="header-section-number">14.2</span> Excerises for you:</a></li>
 </ul>
 
       <div class="book-extra">
@@ -236,7 +238,7 @@
 <footer class="bg-primary text-light mt-5"><div class="container"><div class="row">
 
   <div class="col-12 col-md-6 mt-3">
-    <p>"<strong>BADM 371 Intro to Data Analytics</strong>" was written by BADM 371. It was last built on 2022-01-02.</p>
+    <p>"<strong>BADM 371 Intro to Data Analytics</strong>" was written by BADM 371. It was last built on 2022-01-08.</p>
   </div>
 
   <div class="col-12 col-md-6 mt-3">
